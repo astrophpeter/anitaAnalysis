@@ -1,4 +1,4 @@
-# CART on the Bank Note dataset
+
 from random import seed
 from random import randrange
 from csv import reader
@@ -193,7 +193,7 @@ def print_tree(node, depth=0):
 
 print('Starting')
 
-# Test CART on Bank Note dataset
+
 # load and prepare data
 train = 'data/TrainingSet.csv'
 dataset = load_csv(train)
